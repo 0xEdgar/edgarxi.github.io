@@ -13,6 +13,20 @@
     ga('send', 'pageview');
 
     </script>
+
+<!-- Prepare a container for your calendar. -->
+<script
+  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+>
+</script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
+
+
   </head>
   <body>
     <h1><a href="index.html">Edgar Xi</a></h1>
@@ -22,7 +36,16 @@
     <p>    Previously, I studied Machine Learning at CMU. </p>
     <p> My interests include Natural Language Processing, Financial Markets, Computational Neuroscience, and sneakers 👟 </p>
 
-    <p> 
+    <p>
     I can be reached at [edgarxi97] @ gmail dot com 
     </p>
   </body>
+
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading github calendar
+</div>
+<script>
+    new GitHubCalendar(".calendar", "edgarxi");
+</script>
